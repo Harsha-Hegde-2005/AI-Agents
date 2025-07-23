@@ -1,3 +1,8 @@
+#to Set the API Key Securely in Notebook
+import os
+os.environ["GEMINI_API_KEY"] = "your-api-key-here"
+
+
 # Install required libraries (run this in a notebook or Colab)
 # You only need to run these once in your environment
 !pip install google-generativeai --quiet
